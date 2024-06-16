@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import photo from './Photo.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={photo} className="Portfolio-photo" alt="photo" />
+      <h2>
+        Hi, I'm <span>Artur Ter-Baghdasarov</span>, Front-End Developer
+      </h2>
+      <p>
+        If you're a business owner ready to initiate a web development
+        project with a freelance web developer or a developer seeking to
+        collaborate on an exciting project, feel free to reach out to me.
+        Let's team up and work together!
+      </p>
     </div>
   );
 }
